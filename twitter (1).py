@@ -35,14 +35,14 @@ type(data_columns)
 # In[11]:
 
 
-data.tail(200)
+data.tail(10)
 
 
 # In[13]:
 
 
 data= pd.read_excel("C:\\Users\\audec\\Documents\\M2\\M2_S1\\Initiation_Python\\Data\\Twitterexcel.xls", names= data_columns)
-data.head(200)
+data.head(10)
 
 
 # In[21]:
@@ -89,7 +89,7 @@ data.drop(columns=['target'], inplace=True)
 # In[18]:
 
 
-data.head(20)
+data.head(10)
 
 
 # In[ ]:
