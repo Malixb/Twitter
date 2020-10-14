@@ -10,13 +10,6 @@ import csv
 import os
 
 
-# In[29]:
-
-
-cwd=os.getcwd()
-os.chdir("C:\\Users\\Marie-Alix Baduel\\Desktop")
-print(cwd)
-
 
 # In[3]:
 
